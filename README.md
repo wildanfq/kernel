@@ -1,1 +1,1 @@
-Bare-metal **RISC-V** dengan **Assembly, C, dan Zig** di **QEMU `virt`**, tanpa OS/libc, untuk mempelajari startup, memory layout, stack, dan akses hardware melalui **MMIO**.
+Kumpulan implementasi Hello World bare-metal untuk arsitektur RISC-V 64-bit di QEMU virt, ditulis dalam lima bahasa: Assembly, C, Zig, Hare, dan KernRift. Setiap program berjalan tanpa OS, tanpa libc, dan tanpa firmware—CPU langsung mengeksekusi instruksi dari entry point, berkomunikasi dengan perangkat keras melalui MMIO, dan mencetak teks ke serial console.
